@@ -1,0 +1,1 @@
+// Replace these deterministic mock services with real API calls in a backend phase.\nimport {vehicles} from '../data';\nexport const mockApi={async getVehicles(){await new Promise(r=>setTimeout(r,250));return vehicles},async getVehicle(id){await new Promise(r=>setTimeout(r,150));return vehicles.find(v=>v.id===Number(id))||null}};

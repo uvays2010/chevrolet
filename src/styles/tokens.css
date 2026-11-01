@@ -1,0 +1,16 @@
+:root {
+  --cu-gold: #c49a50;
+  --cu-gold-soft: #dfbd7b;
+  --cu-carbon: #101319;
+  --cu-graphite: #1b2028;
+  --cu-platinum: #c8cbd0;
+  --cu-electric: #4f9fd6;
+  --cu-motion-fast: 160ms;
+  --cu-motion-standard: 260ms;
+  --cu-motion-slow: 520ms;
+  --cu-ease-premium: cubic-bezier(.2,.75,.25,1);
+}
+:focus-visible { outline: 2px solid var(--cu-gold); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

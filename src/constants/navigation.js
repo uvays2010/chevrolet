@@ -1,0 +1,1 @@
+export const primaryNavigation=[{label:'Home',path:'/'},{label:'Vehicles',path:'/vehicles'},{label:'Electric',path:'/electric'},{label:'Performance',path:'/performance'},{label:'Shopping',path:'/marketplace'},{label:'Ownership',path:'/ownership'}];

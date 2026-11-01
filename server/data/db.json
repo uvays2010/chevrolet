@@ -1,0 +1,107 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "name": "Corvette Stingray",
+      "type": "Sports car",
+      "year": 2026,
+      "price": 68900,
+      "power": "495 hp",
+      "engine": "6.2L V8",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Silverado 1500",
+      "type": "Pickup",
+      "year": 2026,
+      "price": 37200,
+      "power": "310 hp",
+      "engine": "2.7L TurboMax",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Equinox EV",
+      "type": "Electric SUV",
+      "year": 2026,
+      "price": 34995,
+      "power": "220 hp",
+      "engine": "Electric",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Tahoe",
+      "type": "Full-size SUV",
+      "year": 2026,
+      "price": 58900,
+      "power": "355 hp",
+      "engine": "5.3L V8",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Blazer EV",
+      "type": "Electric SUV",
+      "year": 2026,
+      "price": 44995,
+      "power": "288 hp",
+      "engine": "Electric",
+      "status": "active"
+    }
+  ],
+  "bookings": [],
+  "orders": [],
+  "products": [
+    {
+      "id": "ACC-001",
+      "name": "All-weather floor liners",
+      "category": "Interior",
+      "price": 189,
+      "description": "Durable fitted protection for everyday driving.",
+      "stock": 24
+    },
+    {
+      "id": "ACC-002",
+      "name": "Cargo organizer",
+      "category": "Storage",
+      "price": 95,
+      "description": "Keep essentials neatly arranged in the cargo area.",
+      "stock": 18
+    },
+    {
+      "id": "ACC-003",
+      "name": "Premium wheel locks",
+      "category": "Exterior",
+      "price": 79,
+      "description": "A practical added layer for wheel security.",
+      "stock": 40
+    },
+    {
+      "id": "ACC-004",
+      "name": "Portable EV charging cable",
+      "category": "Electric",
+      "price": 399,
+      "description": "Portable charging equipment. Compatibility must be confirmed.",
+      "stock": 8
+    },
+    {
+      "id": "ACC-005",
+      "name": "Roof cross rails",
+      "category": "Exterior",
+      "price": 329,
+      "description": "Versatile carrying support for compatible vehicles.",
+      "stock": 12
+    },
+    {
+      "id": "ACC-006",
+      "name": "Cargo area mat",
+      "category": "Interior",
+      "price": 115,
+      "description": "A removable mat designed to help protect the cargo floor.",
+      "stock": 21
+    }
+  ],
+  "audit": []
+}
